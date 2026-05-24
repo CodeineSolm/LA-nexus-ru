@@ -26,6 +26,30 @@
   margin-top: 50px;
 }
 
+@media screen and (min-width: 1610px) and (max-width: 1910px) {
+  .class-cards {
+    grid-template-columns: 242px 242px 242px 242px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1609px) {
+    .class-cards {
+    grid-template-columns: 242px 242px 242px;
+  }
+}
+
+@media screen and (min-width: 985px) and (max-width: 1299px) {
+    .class-cards {
+    grid-template-columns: 242px 242px;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 984px) {
+    .class-cards {
+    grid-template-columns: 242px;
+  }
+}
+
 .class-card {
   background-color: rgb(9, 0, 26);
   height: 150px;
