@@ -1,3 +1,5 @@
+import {types, warriors, mages, fighters, gunners, assassins, specialists, guardianKnights} from '../data/data.js'
+
 let typesHTML = '';
 
 types.forEach((type) => {

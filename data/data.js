@@ -1,4 +1,4 @@
-const types = [{
+export const types = [{
   nameRU: "Воины",
   nameJS: "js-warriors-container"
 }, {
@@ -21,7 +21,7 @@ const types = [{
   nameJS: "js-guardianKnights-container"
 }];
 
-const warriors = [{
+export const warriors = [{
   name: "Берсерк",
   backgroundImg: "images/warriors/berserker/BG_Berserker.png",
   img: "images/warriors/berserker/Warrior_Berserker.png"
@@ -47,7 +47,7 @@ const warriors = [{
   img: "images/warriors/valkyrie/Warrior_Valkyrie.png"
 }];
 
-const mages = [{
+export const mages = [{
   name: "Аркана",
   backgroundImg: "images/mages/arcanist/BG_Arcanist.png",
   img: "images/mages/arcanist/Mage_Arcana.png"
@@ -65,7 +65,7 @@ const mages = [{
   img: "images/mages/summoner/Mage_Summoner.png"
 }];
 
-const fighters = [{
+export const fighters = [{
   name: "Стальной Кулак",
   backgroundImg: "images/fighters/breaker/BG_Breaker.png",
   img: "images/fighters/breaker/Fighter_Breaker.png"
@@ -91,7 +91,7 @@ const fighters = [{
   img: "images/fighters/striker/Fighter_Striker.png"
 }];
 
-const gunners = [{
+export const gunners = [{
   name: "Механист",
   backgroundImg: "images/gunners/artillerist/BG_Artillerist.png",
   img: "images/gunners/artillerist/Gunner_Artillerist.png"
@@ -113,7 +113,7 @@ const gunners = [{
   img: "images/gunners/gunslinger/Gunner_Gunslinger.png"
 }];
 
-const assassins = [{
+export const assassins = [{
   name: "Фурия",
   backgroundImg: "images/assassins/shadowhunter/BG_Shadowhunter.png",
   img: "images/assassins/shadowhunter/Assassin_Shadowhunter.png"
@@ -131,7 +131,7 @@ const assassins = [{
   img: "images/assassins/souleater/Assassin_Souleater.png"
 }];
 
-const specialists = [{
+export const specialists = [{
   name: "Друид",
   backgroundImg: "images/specialists/wildsoul/BG_Wildsoul.png",
   img: "images/specialists/wildsoul/Specialist_Wildsoul.png"
@@ -145,7 +145,7 @@ const specialists = [{
   img: "images/specialists/aeromancer/Specialist_Aeromancer.png"
 }];
 
-const guardianKnights = [{
+export const guardianKnights = [{
   name: "Рыцарь-Хранитель",
   backgroundImg: "images/guardian knights/guardian knight/BG_GK.webp",
   img: "images/guardian knights/guardian knight/emblem_dragon_knight.png"
